@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://cdrxgwsby7ofw"]
+
+[ext_resource type="Script" uid="uid://d0hg00hqmnxwx" path="res://scripts/golf_ball.gd" id="1_ukoya"]
+[ext_resource type="Texture2D" uid="uid://dgxohfuwaebmv" path="res://assets/sprite/golf_ball.png" id="2_r8oke"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_s1xsf"]
+rough = true
+bounce = 0.5
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2bxmg"]
+radius = 7.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4tcl0"]
+radius = 12.0
+
+[node name="GolfBall" type="RigidBody2D"]
+collision_layer = 3
+collision_mask = 3
+mass = 2.0
+physics_material_override = SubResource("PhysicsMaterial_s1xsf")
+center_of_mass_mode = 1
+script = ExtResource("1_ukoya")
+max_force = 100000
+force_multiplier = 20
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_2bxmg")
+
+[node name="GolfBallPNG" type="Sprite2D" parent="."]
+scale = Vector2(0.015, 0.015)
+texture = ExtResource("2_r8oke")
+
+[node name="AimArea" type="Area2D" parent="."]
+
+[node name="AimCollision" type="CollisionShape2D" parent="AimArea"]
+shape = SubResource("CircleShape2D_4tcl0")

@@ -1,0 +1,173 @@
+[gd_scene load_steps=13 format=3 uid="uid://ddd5qla0mm8e0"]
+
+[ext_resource type="Script" uid="uid://ckhgsv0dv42d2" path="res://scripts/ui/results_menu.gd" id="1_v5n2d"]
+[ext_resource type="Texture2D" uid="uid://oy46nu348o5f" path="res://assets/sprite/background/golfbg.png" id="2_v5n2d"]
+[ext_resource type="FontFile" uid="uid://idyueciqptox" path="res://assets/text/CherryBombOne-Regular.ttf" id="3_ifwrh"]
+[ext_resource type="FontFile" uid="uid://cy1l7hojlslff" path="res://assets/text/ClimateCrisis-Regular-VariableFont_YEAR.ttf" id="3_v5n2d"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r67kn"]
+resource_local_to_scene = true
+texture = ExtResource("2_v5n2d")
+modulate_color = Color(0.78916585, 0.9818757, 0.9818757, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_r3gie"]
+font = ExtResource("3_v5n2d")
+font_size = 90
+font_color = Color(1, 0.13333333, 0, 1)
+outline_size = 5
+outline_color = Color(0.5, 0, 0, 1)
+shadow_size = 15
+shadow_color = Color(0.66292787, 0.29831758, 0, 0.2509804)
+shadow_offset = Vector2(5, 5)
+
+[sub_resource type="LabelSettings" id="LabelSettings_v5n2d"]
+font = ExtResource("3_v5n2d")
+font_size = 45
+font_color = Color(1, 0.13333333, 0, 1)
+outline_size = 5
+outline_color = Color(0.5, 0, 0, 1)
+shadow_size = 15
+shadow_color = Color(0.66292787, 0.29831758, 0, 0.2509804)
+shadow_offset = Vector2(5, 5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yb1mt"]
+bg_color = Color(0.5, 0.5, 0.5, 0)
+border_width_left = 10
+border_width_right = 10
+border_color = Color(1, 0, 0, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(5, 5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_41gti"]
+bg_color = Color(0.5, 0.5, 0.5, 0.49803922)
+border_width_left = 10
+border_width_right = 10
+border_color = Color(0.5, 0, 0, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(5, 5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f54a5"]
+bg_color = Color(0.5, 0.5, 0.5, 0.24705882)
+border_width_left = 10
+border_width_right = 10
+border_color = Color(0.75, 0, 0, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(5, 5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7e3k0"]
+bg_color = Color(0.5, 0, 0, 1)
+border_width_left = 10
+border_width_right = 10
+border_color = Color(0.5, 0, 0, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+shadow_color = Color(0, 0, 0, 1)
+shadow_size = 10
+shadow_offset = Vector2(5, 5)
+
+[sub_resource type="Theme" id="Theme_m41qk"]
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_disabled_color = Color(1, 1, 1, 1)
+Button/colors/font_focus_color = Color(0.5, 0.5, 0.5, 1)
+Button/colors/font_hover_color = Color(0.75, 0.75, 0.75, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(1, 0, 0, 1)
+Button/colors/icon_disabled_color = Color(1, 1, 1, 0.4)
+Button/colors/icon_focus_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/icon_normal_color = Color(1, 1, 1, 1)
+Button/colors/icon_pressed_color = Color(1, 1, 1, 1)
+Button/constants/align_to_largest_stylebox = 0
+Button/constants/h_separation = 4
+Button/constants/icon_max_width = 0
+Button/constants/outline_size = 5
+Button/font_sizes/font_size = 30
+Button/fonts/font = ExtResource("3_ifwrh")
+Button/styles/disabled = SubResource("StyleBoxFlat_yb1mt")
+Button/styles/disabled_mirrored = SubResource("StyleBoxFlat_yb1mt")
+Button/styles/focus = SubResource("StyleBoxFlat_41gti")
+Button/styles/hover = SubResource("StyleBoxFlat_f54a5")
+Button/styles/hover_mirrored = SubResource("StyleBoxFlat_f54a5")
+Button/styles/hover_pressed = SubResource("StyleBoxFlat_7e3k0")
+Button/styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_7e3k0")
+Button/styles/normal = SubResource("StyleBoxFlat_yb1mt")
+Button/styles/normal_mirrored = SubResource("StyleBoxFlat_yb1mt")
+Button/styles/pressed = SubResource("StyleBoxFlat_7e3k0")
+Button/styles/pressed_mirrored = SubResource("StyleBoxFlat_7e3k0")
+
+[node name="ResultsMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_v5n2d")
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_r67kn")
+
+[node name="WinLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -271.0
+offset_right = 271.0
+offset_bottom = 175.0
+grow_horizontal = 2
+text = "COURSE FINISHED"
+label_settings = SubResource("LabelSettings_r3gie")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TimeLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -75.0
+offset_right = 150.0
+offset_bottom = 75.0
+grow_horizontal = 2
+grow_vertical = 2
+label_settings = SubResource("LabelSettings_v5n2d")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 700.0
+offset_top = 646.0
+offset_right = 900.0
+offset_bottom = 690.0
+theme = SubResource("Theme_m41qk")
+theme_override_constants/outline_size = 10
+text = "BACK"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

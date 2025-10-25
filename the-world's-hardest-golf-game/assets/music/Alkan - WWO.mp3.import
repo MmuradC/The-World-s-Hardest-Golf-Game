@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dyakiqgs5ibv0"
+path="res://.godot/imported/Alkan - WWO.mp3-060a3fc7fe28a78bf4e110c39d424739.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Alkan - WWO.mp3"
+dest_files=["res://.godot/imported/Alkan - WWO.mp3-060a3fc7fe28a78bf4e110c39d424739.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
