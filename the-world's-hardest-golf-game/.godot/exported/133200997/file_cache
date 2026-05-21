@@ -1,0 +1,11 @@
+res://assets/text/button.tres::ffda79a129bfe529921bde5520b64ff6::1778487346::res://.godot/exported/133200997/export-26157a0d69e7167364fc88c121a35671-button.res
+res://scenes/levels/level_a_1.tscn::1fd55ef4b6c33d10aa4a690ea4ea24c5::1778487346::res://.godot/exported/133200997/export-11d5c7993344a47404b9129dc336ae4c-level_a_1.scn
+res://scenes/levels/level_a_2.tscn::117cf395c3cdc89efa07026ffcf4a860::1778487346::res://.godot/exported/133200997/export-2c2e921686c09fa52b7f8a927f80de5a-level_a_2.scn
+res://scenes/levels/level_a_3.tscn::5736d4930f8fce7e0f379a41a15732b4::1778487346::res://.godot/exported/133200997/export-7ff611da20ef96054f806a39e16f22f9-level_a_3.scn
+res://scenes/levels/level_b_1.tscn::649645eb03d4737df117f069203bf362::1778487346::res://.godot/exported/133200997/export-853ebc84d37e8d8a704c6820adbcd8e2-level_b_1.scn
+res://scenes/ui/main_menu.tscn::001a51e4517c3c0172c9a88802d00805::1778487346::res://.godot/exported/133200997/export-79dd3ab530fc0aed4f9ba21f09ab2efd-main_menu.scn
+res://scenes/ui/pause_menu.tscn::1ad2a3ebec75eb33e4679f6648a5f05f::1778487346::res://.godot/exported/133200997/export-14114c379f76b1c04097459e2387a1e6-pause_menu.scn
+res://scenes/ui/results_menu.tscn::9a47c83abc5070be6ec60192b6addd5d::1778487346::res://.godot/exported/133200997/export-b2e4dff7fee167670a41d390edd0bb75-results_menu.scn
+res://scenes/golf_ball.tscn::3cd2b3507789deb559b329e9867278b4::1778487346::res://.godot/exported/133200997/export-57c07777c31b7ec4e27d5eb4cee9a0f7-golf_ball.scn
+res://scenes/killzone.tscn::8ad572b5486318285c6c04dbcaf3b29e::1778487346::res://.godot/exported/133200997/export-494bf1445653c44a49a39c8f8b1ce8d0-killzone.scn
+res://default_bus_layout.tres::6cb5294ff7f81e2b39f86fbb5276837b::1778487346::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
